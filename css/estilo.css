@@ -1,0 +1,81 @@
+/*-------Fontes-------*/
+@font-face{
+	font-family: Allura;
+	src: url(../font/Allura-Regular.ttf);
+}
+@font-face{
+	font-family: AbhayaLibre;
+	src: url(../font/AbhayaLibre-Regular.ttf);
+}
+
+/*-------Configuração-------*/
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#background-body{
+	background: url(../img/workout-1931107.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.caixa{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*-------Barra de navegação-------*/
+#barra-navegacao{
+	background: rgba(88,88,88,0.6);
+	max-height: 100px;
+}
+div#nav-principal ul li a{
+	color: white;
+	white-space: nowrap;
+}
+div#nav-principal ul li a:hover{
+	color: #9bf0e1;
+	white-space: nowrap;
+}
+.nav-light .navbar-toggler{
+	color: rgba(0,0,0,0.5);
+	border-color: rgba(255, 255, 255, 0,1);
+}
+/*-------Capa-------*/
+.capa{
+	text-align: center;
+}
+.capa h1{
+	font-family: Allura, Helvetica, Arial, sans-serif; 
+	font-size: 8em;
+}
+.capa h2{
+	font-family: AbhayaLibre, Helvetica, Arial, sans-serif; 
+	font-size: 3em;
+	text-transform: uppercase;
+}
+/*-------Conteúdo-------*/
+.conteudo{
+	font-size: 1.4em;
+}
+.conteudo h1{
+	font-family: AbhayaLibre, Helvetica, Arial, sans-serif; 
+	padding-bottom: 30px;
+}
+#studio{
+	background: white;
+	padding: 40px;	
+}
+#sessoes{
+	background: #74198F;
+	color: white;
+	padding: 40px;	
+}
+
+
+
+
+
